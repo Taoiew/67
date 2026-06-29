@@ -1,0 +1,6 @@
+control,workshop_decision,production_decision
+Masking / Hashing,Not required for this synthetic workbook.,Required for real student identifiers or sensitive personal data.
+Encryption,Not implemented.,Encrypt data at rest and in transit.
+Access Control,Defined as role-based assumption.,"Implement RBAC, approval workflow, and least privilege."
+Audit Log,Implemented with batch_audit.csv.,Centralized logging and monitoring.
+Data Retention,Keep outputs for demo evidence.,Define retention period and deletion policy.

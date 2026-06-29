@@ -1,0 +1,7 @@
+layer,allowed_role,access_purpose
+Raw Layer,"Data Engineer, Governance Reviewer",Inspect original Excel rows and trace source evidence.
+Staging Layer,Data Engineer,"Validate schema, convert types, and clean data."
+Trusted Layer,Data Team,Use clean trusted data for analytics and RAG preparation.
+Analytics Layer,"Business Analyst, Instructor, Student Team","View summary, dashboard, and visualization."
+RAG Layer,"End User, Instructor, Student Team",Ask questions from approved workbook context with source citation.
+Audit / Metadata,"Project Manager, Data Engineer, Governance Reviewer","Check run status, lineage, checksum, and quality evidence."

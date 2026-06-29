@@ -1,0 +1,8 @@
+data_group,columns,classification,usage_rule
+Traceability / Row Identity,"record_type, entity_id, source_row_no",Lineage / Audit,"Use for routing, lineage, source evidence, and rerun checks."
+Synthetic Student Profile,"student_no, citizen_id, email, mobile, student_name",Synthetic Profile Data,"Use as mock workshop fields. No masking, hashing, or encryption required."
+Academic Attributes,"level, faculty_or_school, program_id, program_name, campus, gpa, credit_earned",Academic Mock Data,"Use for grouping, filtering, analytics, and quality summary."
+Behavior and Career,"behavior_profile, teamwork_style, learning_preference, career_interest, internship_interest",Behavior / Career Mock-up,"Use for mock data product questions, visualization, and RAG examples."
+Expected Salary,"expected_salary_thb, salary_expectation_note",Mock Salary Data,Use for analytics and RAG examples. Must state that it is not official salary data.
+RAG Fields,"rag_document_title, rag_document_text, rag_keywords, rag_sample_question, rag_expected_answer_hint",RAG Corpus,"Use directly as RAG corpus with source_row_no, entity_id, student_no, or source_url as evidence."
+Operational Metadata,"batch_date, snapshot_date, source_system, source_url, task_hint",Operational / Source Metadata,"Use for audit, lineage, citation, and run explanation."

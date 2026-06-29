@@ -1,0 +1,2 @@
+source_row_no,entity_id,student_no,source_url,rag_document_title,rag_keywords,rag_expected_answer_hint,document_text_full
+1,1,1,https://example.com/workshop,Trusted record for student 1,student 1 Data Science ,Student 1 is associated with Data Science.,Student 1 is recorded in the trusted dataset. Program: Data Science. Career interest: . GPA: . Expected salary: .

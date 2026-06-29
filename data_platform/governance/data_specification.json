@@ -1,0 +1,14 @@
+{
+  "dataset": "thammasat_workshop_dataset.xlsx",
+  "source": "workshop_data",
+  "fields": [
+    "student_no",
+    "program_id",
+    "program_name",
+    "gpa",
+    "credit_earned",
+    "expected_salary_thb",
+    "career_interest"
+  ],
+  "generated_by": "thammasat-data-ai-workshop"
+}

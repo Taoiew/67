@@ -1,0 +1,2 @@
+Trusted rows: 1
+Analytics generated successfully

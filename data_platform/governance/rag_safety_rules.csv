@@ -1,0 +1,5 @@
+rule,description
+Answer only from workbook evidence,The RAG response must use retrieved Excel context only.
+Show source reference,"Every answer should show source_row_no, entity_id, student_no, or source_url."
+Do not guess,"If no retrieved context supports the answer, return not found."
+Mock data warning,"Salary and behavior fields are mock workshop data, not official records."
